@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { 
   FiUsers, 
   FiCreditCard, 
@@ -115,7 +115,6 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 flex">
-      {/* Mobile Menu Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="lg:hidden fixed top-14 left-4 z-50 p-2 bg-white rounded-lg shadow-md"
@@ -123,7 +122,6 @@ const Home = () => {
         {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
       </button>
 
-      {/* Overlay for mobile */}
       {isOpen && (
         <div
           className="lg:hidden fixed inset-0 bg-black bg-opacity-50 z-40"
@@ -180,7 +178,6 @@ const Home = () => {
       {/* Main Content */}
       <div className="flex-1 lg:ml-0 ml-0">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          {/* Header */}
           <div className="mb-8 mt-12 lg:mt-0">
             <h1 className="text-3xl font-semibold text-gray-900">Good evening, Adam</h1>
           </div>

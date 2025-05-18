@@ -14,7 +14,6 @@ const Reports = () => {
 
   const tabs = ['Last month', 'This month', 'Last 3 months'];
 
-  // Different data for each time period
   const spendingDataByPeriod = {
     'Last month': {
       data: [
@@ -75,7 +74,7 @@ const Reports = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 p-4 sm:p-6 lg:p-8">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         {/* Header */}
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">
           Spending Report

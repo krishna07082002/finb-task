@@ -6,7 +6,6 @@ import {
   FiRepeat
 } from 'react-icons/fi';
 
-// Transaction type definition
 type TransactionType = 'income' | 'expense' | 'transfer';
 
 interface Transaction {
@@ -45,7 +44,7 @@ const transactions: Transaction[] = [
       const matchesSearch = transaction.description.toLowerCase().includes(searchTerm.toLowerCase());
       return matchesTab && matchesSearch;
     })
-    .slice(0, 10); // Show latest 8–10 (currently showing 10, you can change to 8 if required)
+    .slice(0, 10);
 
   const getCategoryIcon = (category: string, type: string) => {
     if (category === 'Income') return <FiTrendingUp className="text-green-500" />;
