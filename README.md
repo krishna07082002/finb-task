@@ -1,4 +1,4 @@
-#Tech Stack
+# Tech Stack
 
 Framework: React 19+ with TypeScript
 Styling: Tailwind CSS
@@ -9,7 +9,7 @@ Type Safety: TypeScript
 Deployment: Vercel
 
 
-#Steps
+# Steps
 
 Clone the repository
 bash: git clone https://github.com/krishna07082002/finb-task.git
