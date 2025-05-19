@@ -25,6 +25,8 @@ bash: npm run dev
  or
 yarn dev
 
+# Live Preview
+https://finb-task.netlify.app/
 
 
 
